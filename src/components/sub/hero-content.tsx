@@ -16,8 +16,9 @@ const HeroContent = () => {
     >
       <motion.div 
       variants={slideInFromLeft(0.5)} 
-      className="flex flex-col justify-center text-start gap-10 m-auto w-full h-full">
+      className="flex flex-col justify-center text-start gap-10 pl-2 m-auto w-full h-full">
        <p className="text-4xl md:text-6xl">Reindra Antoni, <br />Fullstack Web Developer</p>
+       <p>I'm a junior fullstack web developer with react techstack. <br />Based in Bandung, Indonesia</p>
        <div className="flex flex-col md:flex-row gap-5">
           <div className="flex items-center gap-3">
             <MdEmail size={20} />
@@ -36,9 +37,9 @@ const HeroContent = () => {
       </motion.div>
       <motion.div
       variants={slideInFromRight(0.5)}
-      className="flex justify-center items-center w-full h-full"
+      className="flex justify-center items-center pl-20 w-full h-full"
       >
-        <Image src="/mainIconsdark.svg" alt="Icons" width={500} height={500}/>
+        <Image src="/mainIconsdark.svg" alt="Icons" width={600} height={600}/>
       </motion.div>
     </motion.div>
   )

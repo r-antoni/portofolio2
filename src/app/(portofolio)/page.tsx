@@ -8,7 +8,7 @@ import Hero from "@/components/main/hero";
 export default function Home() {
   return (
     <main className="w-full h-full">
-      <div className="flex flex-col h-[800px] gap-20">
+      <div className="flex flex-col gap-20">
         <Hero />
       </div>   
     </main>
