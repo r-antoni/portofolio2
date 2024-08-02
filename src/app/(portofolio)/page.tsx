@@ -1,6 +1,6 @@
 "use client"
 // Data
-import { navItems } from "@/data";
+import { navItems } from "@/lib/data";
 // Components
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Hero from "@/components/main/hero";

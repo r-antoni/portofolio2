@@ -4,8 +4,8 @@ export const navItems = [
         link: "/"
     },
     {
-        name: "Resume",
-        link: "/#resume"
+        name: "About",
+        link: "/#about"
     },
     {
         name: "Projects",
@@ -15,4 +15,12 @@ export const navItems = [
         name: "Contact",
         link: "/#contact"
     },
+]
+
+export const skillData = [
+    {}
+]
+
+export const socialData = [
+    {}
 ]
