@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='absolute flex justify-between items-center top-5 w-full h-16 z-50 px-10'>
+    <nav className='absolute flex justify-between items-center top-5 w-full h-16 z-50 md:px-10 pr-5'>
         <div>
-            <Image src="/logo.png" alt='Portofolio Logo' width={150} height={150} />
+            <Image src="/logo.png" alt='Portofolio Logo' width={130} height={150} />
         </div>
-        <div>
+        <div className='xl:pr-10'>
             <Link href="/">
                 <MagicButton title='Hire Me' />
             </Link>
