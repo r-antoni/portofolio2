@@ -11,7 +11,7 @@ import Contact from "@/components/main/contact";
 export default function Home() {
   return (
     <main className="w-full h-full">
-      <div className="flex flex-col gap-40 px-10">
+      <div className="flex flex-col gap-60 px-10">
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
