@@ -37,7 +37,7 @@ const SkillProvider = ({ src, width, height, index} : Props) => {
         src={src}
         width={width}
         height={height}
-        alt='Skill Logo'
+        alt='skill image'
         />
       </motion.div>
   )

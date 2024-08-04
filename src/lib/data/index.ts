@@ -18,23 +18,16 @@ export const navItems = [
 ]
 
 export const skillData = [
-    {
-        skill_name: "HTML5",
-        Image: "/html.png",
-        width: 90,
-        height: 90,
-      },
       {
-        skill_name: "CSS",
-        Image: "/css.png",
-        width: 105,
-        height: 105,
-      },
-      {
-        skill_name: "Javascript",
-        Image: "/js.png",
-        width: 65,
-        height: 65,
+        skill_name: "React",
+        Image: "/react.png",
+        width: 80,
+        height: 80,
+      }, {
+        skill_name: "Next.js",
+        Image: "/next.png",
+        width: 80,
+        height: 80,
       },
       {
         skill_name: "Typescript",
@@ -48,18 +41,8 @@ export const skillData = [
         width: 100,
         height: 80,
       },
-      {
-        skill_name: "React",
-        Image: "/react.png",
-        width: 80,
-        height: 80,
-      },
-      {
-        skill_name: "Next.js",
-        Image: "/next.png",
-        width: 80,
-        height: 80,
-      },
+      
+     
       {
         skill_name: "Node.js",
         Image: "/node-js.png",

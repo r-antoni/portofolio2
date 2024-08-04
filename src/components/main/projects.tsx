@@ -3,7 +3,7 @@ import ProjectPreview from '../sub/project-preview'
 const Projects = () => {
   return (
     <section id='projects' className='flex flex-col justify-center items-center gap-10 max-w-7xl mx-auto px-5 py-32 z-40'>
-      <h2>Projects</h2>
+      <h2 className="text-4xl pb-5">Projects</h2>
       <div className='"flex flex-col justify-center items-center w-full mt-10"'>
           <ProjectPreview 
           name="CryptoHub"

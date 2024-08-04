@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/star-background";
-import Navbar from "@/components/main/navbar";
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ["latin"], 
@@ -22,9 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.variable} overflow-y-scroll overflow-x-hidden`}>
+      <body className={`${jetbrainsMono.variable}`}>
         <StarsCanvas />
-        <Navbar />
         {children}
       </body>
     </html>
