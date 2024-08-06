@@ -10,7 +10,7 @@ const Social = () => {
     
       return (
         <div className="flex justify-center items-center gap-5 pt-10">
-          <a href="https://www.linkedin.com/in/reindra-bachtiar-antoni/" target="_blank">
+          <a href="https://www.linkedin.com/in/reindra-antoni/" target="_blank">
             <span className={styles.icons}>
               <FaLinkedinIn size={20} />
             </span>

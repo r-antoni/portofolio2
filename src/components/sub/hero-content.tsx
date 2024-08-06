@@ -32,7 +32,7 @@ const HeroContent = () => {
           </div>
           <div className="flex items-center gap-3">
           <FaLinkedinIn size={16} />
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/reindra-antoni/">
               <p>Reindra Antoni</p>
             </Link>
           </div>
