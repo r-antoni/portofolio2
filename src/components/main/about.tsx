@@ -5,7 +5,7 @@ import SkillProvider from "../sub/skill-provider"
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col justify-center items-center gap-10 md:gap-20 z-30 px-10 py-20">
+    <section id="about" className="flex flex-col justify-center items-center gap-10 md:gap-20 z-30 px-5 md:px-10 py-20">
         <div className="flex flex-col justify-center items-center gap-5 w-fit">
             <h2 className="text-4xl">About</h2>
             <p className="md:text-center">Hi again, I&apos;m Reindra a fullstack web developer that specialized in react techstack. I love to explore and try new tech and also building impactful projects. Even though I&apos;m a fullstack dev, I&apos;m leaning more towards frontend development, but I&apos;m open to both fullstack and frontend position when opportunity arise.</p>
