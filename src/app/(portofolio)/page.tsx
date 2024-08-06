@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="w-full h-full">
       <FloatingNav navItems={navItems} />
-      <div className="flex flex-col gap-80 px-10"> 
+      <div className="flex flex-col gap-20 md:gap-40 px-8"> 
         <Hero />  
         <About />
         <Projects />

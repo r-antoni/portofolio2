@@ -2,7 +2,7 @@ import HeroContent from "../sub/hero-content"
 
 const Hero = () => {
   return (
-    <section className="flex flex-col w-full h-full">
+    <section className="flex flex-col w-full h-full pb-20">
       <video
       autoPlay
       muted

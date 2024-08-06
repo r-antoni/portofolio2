@@ -10,7 +10,7 @@ const HeroContent = () => {
   return (
     <motion.div
     animate="visible"
-    className="flex flex-row items-center justify-center px-10 py-10 mt-40 w-full z-[20]"
+    className="flex flex-row items-center justify-center md:px-10 py-10 mt-40 w-full z-[20]"
     >
       <motion.div 
           initial={{
