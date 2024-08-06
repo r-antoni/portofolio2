@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/star-background";
+import Header from "@/components/main/header";
+import Footer from "@/components/main/footer";
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ["latin"], 
@@ -22,8 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jetbrainsMono.variable}`}>
+        <Header />
         <StarsCanvas />
         {children}
+        <Footer />
       </body>
     </html>
   );

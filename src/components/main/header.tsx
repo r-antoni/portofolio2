@@ -5,14 +5,16 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <nav className='absolute flex justify-between items-center top-5 w-full h-16 z-50 md:px-10 pr-5'>
-        <Image src="/logo.png" alt='Portofolio Logo' width={130} height={130} />
+    <header className='absolute flex justify-between items-center top-5 w-full h-16 z-50 md:px-10 pr-5'>
+        <Link href="/">
+            <Image src="/logo.png" alt='Portofolio Logo' width={130} height={130} />
+        </Link>
         <div className='xl:pr-10'>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/reindra-antoni/">
                 <MagicButton title='Hire Me' />
             </Link>
         </div>
-    </nav>
+    </header>
   )
 }
 

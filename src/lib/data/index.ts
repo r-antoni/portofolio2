@@ -57,6 +57,38 @@ export const skillData = [
       },
 ]
 
-export const socialData = [
-    {}
-]
+export const projectData = [
+      {
+        name: "CryptoHub",
+        image: "/cryptohub.png",
+        desc: 'GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is created using Next.js 13 with Next.js app router and TailwindCSS, it is also using Stripe for payment checkout.',
+        link: 'https://cryptohub-vert.vercel.app/',
+        github: 'https://cryptohub-vert.vercel.app/',
+        yt: 'https://cryptohub-vert.vercel.app/',
+        wrapper: 'xl:flex-row-reverse',
+        item: 'items-start',
+        margin: 'xl:-mr-16'
+      },
+      {
+        name: "CryptoHub",
+        image: "/cryptohub.png",
+        desc: 'GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is created using Next.js 13 with Next.js app router and TailwindCSS, it is also using Stripe for payment checkout.',
+        link: 'https://cryptohub-vert.vercel.app/',
+        github: 'https://cryptohub-vert.vercel.app/',
+        yt: 'https://cryptohub-vert.vercel.app/',
+        wrapper: 'xl:flex-row',
+        item: 'items-end',
+        margin: 'xl:-ml-16'
+      },
+      {
+        name: "CryptoHub",
+        image: "/cryptohub.png",
+        desc: 'GlobeTix is a fullstack travel booking website, with several destination to choose in Indonesia. It is created using Next.js 13 with Next.js app router and TailwindCSS, it is also using Stripe for payment checkout.',
+        link: 'https://cryptohub-vert.vercel.app/',
+        github: 'https://cryptohub-vert.vercel.app/',
+        yt: 'https://cryptohub-vert.vercel.app/',
+        wrapper: 'xl:flex-row-reverse',
+        item: 'items-start',
+        margin: 'xl:-mr-16'
+      }
+  ]

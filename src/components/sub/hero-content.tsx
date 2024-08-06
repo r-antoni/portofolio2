@@ -3,7 +3,6 @@ import Link from "next/link"
 import { Button } from "../ui/button"
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { slideInFromLeft, slideInFromRight } from "@/lib/utils/motion";
 import Image from "next/image";
 
 
@@ -14,7 +13,13 @@ const HeroContent = () => {
     className="flex flex-row items-center justify-center px-10 py-10 mt-40 w-full z-[20]"
     >
       <motion.div 
-      variants={slideInFromLeft(0.5)} 
+          initial={{
+            x: -200,
+            opacity:0
+          }}
+          transition={{duration: 1.25}}
+          whileInView={{x:0, opacity:1}}
+          viewport={{once: true}}
       className="flex flex-col justify-center text-start gap-10 pl-2 m-auto w-full h-full">
        <p className="text-4xl md:text-6xl">Reindra Antoni, Fullstack Web Developer</p>
        <p>I&apos;m a junior react fullstack web developer. <br />Based in Bandung, Indonesia</p>
@@ -32,10 +37,18 @@ const HeroContent = () => {
             </Link>
           </div>
        </div>
-       <Button className="w-40" size="sm">View Work</Button>
+       <Link href="/#projects">
+          <Button className="w-40 bg-accent" size="sm">View Work</Button>
+       </Link>
       </motion.div>
       <motion.div
-      variants={slideInFromRight(0.5)}
+          initial={{
+            x: 200,
+            opacity:0
+          }}
+          transition={{duration: 1.25}}
+          whileInView={{x:0, opacity:1}}
+          viewport={{once: true}}
       className="hidden md:flex justify-center items-center ml-[400px] w-full h-full"
       >
         <Image src="/mainIconsdark.svg" alt="Icons" width={600} height={600}/>
