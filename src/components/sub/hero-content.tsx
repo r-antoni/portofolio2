@@ -21,11 +21,11 @@ const HeroContent = () => {
           whileInView={{x:0, opacity:1}}
           viewport={{once: true}}
       className="flex flex-col justify-center text-start gap-10 pl-2 m-auto w-full h-full">
-       <p className="text-4xl md:text-6xl">Reindra Antoni, Fullstack Web Developer</p>
+       <p className="text-4xl md:text-5xl xl:6xl">Reindra Antoni, Fullstack Web Developer</p>
        <p>I&apos;m a junior react fullstack web developer. <br />Based in Bandung, Indonesia</p>
        <div className="flex flex-col md:flex-row gap-5">
           <div className="flex items-center gap-3">
-            <MdEmail size={20} />
+            <MdEmail size={16} />
             <Link href="mailto:reindraantoni@gmail.com">
               <p>reindraantoni@gmail.com</p>
             </Link>
